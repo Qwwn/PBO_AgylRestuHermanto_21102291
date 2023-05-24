@@ -1,4 +1,4 @@
-package pertemuan6;
+package com.agyl.PBO.pertemuan6;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package pertemuan6;
+package com.agyl.PBO.pertemuan6;
 
 public class TryCatch {
     public static void main(String[] args) {
