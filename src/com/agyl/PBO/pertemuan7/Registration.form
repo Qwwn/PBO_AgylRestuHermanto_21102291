@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.agyl.PBO.pertemuan7.Regristation">
-  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.agyl.PBO.pertemuan7.Registration">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="568" height="254"/>
@@ -16,17 +16,17 @@
           <text value="Nama"/>
         </properties>
       </component>
-      <component id="bffa8" class="javax.swing.JTextField" binding="agylRestuHermantoTextField" default-binding="true">
+      <component id="bffa8" class="javax.swing.JTextField" binding="TextName">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
-          <text value="Agyl Restu Hermanto"/>
+          <text value="Agyl Restu Hemanto"/>
         </properties>
       </component>
-      <component id="c6bfe" class="javax.swing.JTextField" binding="a21102291TextField" default-binding="true">
+      <component id="c6bfe" class="javax.swing.JTextField" binding="TextNIM">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -36,7 +36,7 @@
           <text value="21102291"/>
         </properties>
       </component>
-      <component id="384eb" class="javax.swing.JLabel">
+      <component id="384eb" class="javax.swing.JLabel" binding="lblprodi">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -68,7 +68,7 @@
           <text value="Jenis Kelamin"/>
         </properties>
       </component>
-      <component id="e76b6" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+      <component id="e76b6" class="javax.swing.JComboBox" binding="CBProdi">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -86,7 +86,7 @@
           </model>
         </properties>
       </component>
-      <component id="c4b30" class="javax.swing.JTextField" binding="a0895334845184TextField" default-binding="true">
+      <component id="c4b30" class="javax.swing.JTextField" binding="TextTelp">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -120,13 +120,15 @@
           <text value="Label"/>
         </properties>
       </component>
-      <component id="de5e4" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+      <component id="de5e4" class="javax.swing.JTextArea" binding="TextAlamat">
         <constraints>
           <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value=""/>
+        </properties>
       </component>
       <vspacer id="15cc9">
         <constraints>
@@ -146,9 +148,15 @@
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Cancel"/>
+          <text value="Clear"/>
         </properties>
       </component>
     </children>
   </grid>
+  <buttonGroups>
+    <group name="jk">
+      <member id="6dfd0"/>
+      <member id="63202"/>
+    </group>
+  </buttonGroups>
 </form>
