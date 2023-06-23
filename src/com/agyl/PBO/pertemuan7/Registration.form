@@ -23,7 +23,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="Agyl Restu Hemanto"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="c6bfe" class="javax.swing.JTextField" binding="TextNIM">
@@ -33,7 +33,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="21102291"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="384eb" class="javax.swing.JLabel" binding="lblprodi">
@@ -74,7 +74,7 @@
         </constraints>
         <properties>
           <model>
-            <item value="Teknik Informatika"/>
+            <item value=""/>
             <item value="apa"/>
             <item value="ya"/>
             <item value="apa"/>
@@ -93,7 +93,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="0895334845184"/>
+          <text value=""/>
         </properties>
       </component>
       <component id="6dfd0" class="javax.swing.JRadioButton" binding="maleRadioButton" default-binding="true">
@@ -154,7 +154,7 @@
     </children>
   </grid>
   <buttonGroups>
-    <group name="jk">
+    <group name="jk" bound="true">
       <member id="6dfd0"/>
       <member id="63202"/>
     </group>
